@@ -1,5 +1,7 @@
 # PSLanguageSelector
 
+THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/thedges/Disclaimer/master/disclaimer.txt).
+
 A component for changing the language of authenticated user in a community. The functionality of this component is pretty simple. Based on the language selector, the component updates the Locale user setting (field LanguageLocaleKey) on the current users record. The component then forces a full page refresh which was needed to get all areas of community page to update.
 
 Some details of this component:
