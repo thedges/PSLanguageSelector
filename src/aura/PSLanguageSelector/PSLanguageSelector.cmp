@@ -5,8 +5,8 @@
     <aura:if isTrue="{!v.lang != ''}">
       <lightning:select name="select1" label="Language:" value="{!v.lang}" onchange="{!c.onLanguageSelect}">
         <option value="en_US" selected="{!v.lang == 'en_US'}">English</option>
-        <option value="es" selected="{!v.lang == 'es'}">Spanish</option>
-        <option value="fr" selected="{!v.lang == 'fr'}">French</option>
+        <option value="es" selected="{!v.lang == 'es'}">Español</option>
+        <option value="fr" selected="{!v.lang == 'fr'}">Français</option>
       </lightning:select>
     </aura:if>
 </aura:component>
